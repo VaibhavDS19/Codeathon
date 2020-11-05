@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Predict music genre</title>
+</head>
+<body bgcolor = #d4a3ae>
+<center>
+    <h1>MUSIC GENRE PREDICTOR</h1>
+    <br>
+    <form method = "POST" , action = "{{url_for('genre')}}">
+    <b>
+        Name : <input type = "text", name = 'lol1', placeholder = "enter name"><br><br>
+        Country : <input type ="text", name = 'lol2', placeholder = "enter country"><br><br>
+        Occupation : <input type ="text", name = 'lol3', placeholder = "enter occupation"><br><br>
+        Favourite hobby : <input type ="text", name = 'lol4', placeholder = "enter hobby"><br><br>
+        Phone no. : <input type ="text", name = 'lol5', placeholder = "enter phone no."><br><br>
+        Age : <input type ="text", name = 'a', placeholder = "enter age"><br><br>
+        Gender(0 for male and 1 for female) : <input type ="text", name = 'b', placeholder = "enter 0 or 1"><br><br><br>
+
+    </b>
+    <input type = "submit", value = 'predict'>
+    </form>
+    <img src = "static\genre.jpg" alt=""Genres">
+</center>
+
+</body>
+</html>
